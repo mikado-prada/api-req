@@ -1,0 +1,9 @@
+{application,my_project,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,httpoison,jason]},
+              {description,"my_project"},
+              {modules,['Elixir.MyProject','Elixir.MyProject.APIreq',
+                        'Elixir.MyProject.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MyProject.Application',[]}}]}.
